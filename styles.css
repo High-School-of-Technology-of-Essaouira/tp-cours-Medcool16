@@ -6,14 +6,14 @@ body{
     /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-repeat: no-repeat;
     height: 100vh; */
-    background-color: darkgray;
+    background-color: rgb(189, 128, 128);
 }
 
 .all{
-    background-color: rgb(166, 204, 206);
+    background-color: rgb(182, 209, 211);
     padding: 1px 10px;
     border-radius: 16px;
-    
+    position:fixed;
 }
 .all ul li{
     display: inline;
@@ -26,7 +26,7 @@ ul{
 
 li{
     margin: 1px 20px 1px 20px;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 5px 14px;
     border-radius: 10px;
     color: white;
@@ -72,4 +72,10 @@ li{
 }
 .b:active{
     color: black;
+}
+
+
+.para{
+    padding: 70px 10px;
+    color: white;
 }
