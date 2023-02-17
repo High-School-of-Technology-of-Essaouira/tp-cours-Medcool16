@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat: no-repeat;
+    height: 100vh; */
+    background-color: darkgray;
+}
+
+.all{
+    background-color: rgb(166, 204, 206);
+    padding: 1px 10px;
+    border-radius: 16px;
+    
+}
+.all ul li{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    text-align: center;
+}
+
+li{
+    margin: 1px 20px 1px 20px;
+    border: 1px solid white;
+    padding: 5px 14px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.a{
+    background-color: chartreuse;
+}
+.b{
+    background-color: blue;
+}
+.c{
+    background-color: brown;
+}
+.d{
+    background-color: coral;
+}
+.a:hover{
+    background-color: blueviolet;
+    padding: 5px 20px;
+}
+.a:active{
+    color: black;
+}
+.b:hover{
+    background-color: crimson;
+    padding: 5px 20px;
+}
+.b:active{
+    color: black;
+}
+.c:hover{
+    background-color: darkorange;
+    padding: 5px 20px;
+}
+.c:active{
+    color: black;
+}
+.d:hover{
+    background-color: fuchsia;
+    padding: 5px 20px;
+}
+.b:active{
+    color: black;
+}
